@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px;
+}
+header h3 {
+  padding-right: 550px;
+  word-spacing: 20px;
+}
+header img {
+  padding-left: 550px;
+}
+
+.container {
+  max-width: 1700px;
+  margin: auto;
+}
+h3 span {
+  color: blue;
+}
+main .content {
+  max-width: 550px;
+  margin: auto;
+  padding-top: 80px;
+}
+main h1 {
+  font-size: 40px;
+}
+p {
+  color: #666666;
+  font-size: 17px;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+main .content input {
+  padding: 5px;
+  width: 400px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid #eeeeee;
+  font-size: 23px;
+}
+main .content .text button {
+  border-radius: 8px;
+  background: #0000ff;
+  padding: 15px;
+  color: #fff;
+  margin-left: 40px;
+  width: 30%;
+  font-size: 17px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.borderbtm {
+  padding-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid #f6f6f6;
+}
+.card-container {
+  padding-top: 20px;
+}
+.card {
+  background: #f6f6f6;
+  padding: 27px;
+  width: 550px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.counter h1 {
+  font-size: 18px;
+  color: #666666;
+}
+.counter span {
+  color: #000000;
+}
+.card img {
+  cursor: pointer;
+}
+.borderbtm2 {
+  margin-top: 80px;
+  z-index: 5;
+  border-bottom: 1px solid #f6f6f6;
+}
+footer .content h3 {
+  padding-top: 200px;
+  text-align: center;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+}
+.btn {
+  border-radius: 8px;
+  background: #0000ff;
+  padding: 15px;
+  color: #fff;
+  margin-left: 40px;
+  width: 30%;
+  font-size: 17px;
+  border: 1px solid;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    min-width: 600px;
+    margin: auto;
+  }
+  header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px;
+  }
+  header h3 {
+    padding-right: 0px;
+    word-spacing: 20px;
+    font-size: 27px;
+  }
+  header img {
+    padding-left: 20px;
+    width: 140px;
+  }
+  main .content {
+    max-width: 550px;
+    margin-top: -50px;
+    padding-left: 25px;
+  }
+  .text {
+    display: block;
+  }
+  main .content .text button {
+    display: none;
+  }
+  main .content input {
+    padding: 5px;
+    width: 530px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #eeeeee;
+    font-size: 23px;
+  }
+  .btn {
+    display: block;
+    margin-top: 350px;
+    width: 100%;
+    border-radius: 8px;
+    background: #0000ff;
+    padding: 15px;
+    color: #fff;
+    margin-left: -10px;
+    font-size: 20px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  p {
+    font-size: 20px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+  .counter h1 {
+    font-size: 25px;
+  }
+}
